@@ -2,5 +2,7 @@ print('Witam w prostym kalkulatorze')
 wynik=0
 x = int(input('Podaj dwie liczby:\n'))
 y = int(input())
-wynik=x+y
-print('Suma tych liczb to: ', wynik)
+def suma(x,y):
+    wynik=x+y
+    return wynik
+print('Suma tych liczb to: ', suma(x,y))
