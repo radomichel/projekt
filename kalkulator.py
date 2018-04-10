@@ -5,4 +5,8 @@ y = int(input())
 def suma(x,y):
     wynik=x+y
     return wynik
+def odejmowanie(x,y):
+    roznica=x-y
+    return roznica
 print('Suma tych liczb to: ', suma(x,y))
+print('Różnica tych liczb to: ', odejmowanie(x,y))
